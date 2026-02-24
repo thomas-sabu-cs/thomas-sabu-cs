@@ -25,6 +25,9 @@ A **React 18 + TypeScript** dashboard for visualizing financial risk. Built with
 ### [🧠 Skill Gap AI Coach](https://github.com/thomas-sabu-cs/skillgap-ai-coach) — NLP (Python)
 Analyzes resumes against job descriptions to produce a **0–100 fit score**. Identifies missing skills and suggests actionable next steps using NLP.
 
+### [🎨 Image Editor Pro](https://github.com/thomas-sabu-cs/image-editor-pro) — Desktop App (Python/PyQt6)
+A full-featured desktop image editor with **layers, filters, and undo/redo** functionality. Designed with an MVC architecture and supports a custom `.iep` project format for persistent editing.
+
 ---
 
 ## 🛠️ Core Skills
