@@ -1,47 +1,47 @@
 # Thomas Sabu
-
-Software Engineer focused on **Machine Learning**, **Distributed Systems**, and **Full-Stack** development. I specialize in shipping end-to-end projects: from high-performance core implementations to clean APIs and responsive UIs.
-
-* 🌐 **Portfolio:** [thomas-sabu-cs.github.io/Website/](https://thomas-sabu-cs.github.io/Website/)
-* 💼 **LinkedIn:** [linkedin.com/in/thomas-sabu](https://www.linkedin.com/in/thomas-sabu)
-* 🎓 **Education:** University of St. Thomas (Computer Science)
+**Software Engineer | ML & Distributed Systems**
+[Portfolio](https://thomas-sabu-cs.github.io/Website/) • [LinkedIn](https://linkedin.com/in/thomas-sabu)
 
 ---
 
-## 🚀 Highlight Reel (Flagship Projects)
+### 01. Engineering Focus
+I build data-intensive applications with a focus on **system reliability** and **model interpretability**. I’m a CS New Grad (University of St. Thomas) currently looking for Full-Stack or ML Engineering roles where I can own the bridge between research and production.
 
-### [🛰️ Sentinel Stream](https://github.com/thomas-sabu-cs/sentinel-stream) — Distributed Monitoring Engine (Go)
-Real-time monitoring pipeline using **Redis Pub/Sub**, **InfluxDB**, and **Dockerized microservices**. Built for high throughput and clean service boundaries.
+### 02. Selected Technical Projects
 
-### [🩻 Pneumonia Detector](https://github.com/thomas-sabu-cs/Pneumonia-Detector) — Computer Vision (PyTorch)
-DenseNet-121 classifier for chest X-rays featuring **Grad-CAM explainability** and an interactive **Gradio** web demo for real-time predictions.
+#### 🛰️ [Sentinel Stream](https://github.com/thomas-sabu-cs/sentinel-stream) | Go, Redis, InfluxDB, Docker
+*Distributed monitoring engine designed for high-throughput telemetry.*
+- Implemented a real-time pipeline using **Redis Pub/Sub** for decoupled service communication.
+- Optimized data persistence into **InfluxDB** for time-series analysis.
+- **Key Focus:** Service boundaries, container orchestration, and horizontal scaling.
 
-### [✅ Transaction Monitor](https://github.com/thomas-sabu-cs/transaction-monitor-service) — Backend (Java/Spring Boot)
-**Spring Boot 3** REST API for transaction risk scoring. Features **JUnit 5** test coverage and automated **GitHub Actions CI** pipelines.
+#### 🩻 [Pneumonia Detector](https://github.com/thomas-sabu-cs/Pneumonia-Detector) | PyTorch, DenseNet-121, Gradio
+*Computer vision classifier for chest X-rays with explainable AI.*
+- Achieved high classification accuracy using **DenseNet-121** with class-imbalance handling.
+- Integrated **Grad-CAM** to visualize model attention, providing clinical interpretability.
+- **Key Focus:** Model evaluation metrics, explainability, and real-time inference.
 
-### [📊 Risk Decision Dashboard](https://github.com/thomas-sabu-cs/risk-decision-dashboard) — Frontend (React/TS)
-A **React 18 + TypeScript** dashboard for visualizing financial risk. Built with **Redux Toolkit** and **Tailwind CSS** for a professional, scalable UI.
+#### ✅ [Transaction Monitor](https://github.com/thomas-sabu-cs/transaction-monitor-service) | Java, Spring Boot 3, JUnit 5
+*Backend service for automated financial risk scoring.*
+- Built a robust REST API with **Spring Data JPA** and H2 for persistent state management.
+- Automated quality gates using **GitHub Actions CI** and achieved high test coverage with JUnit 5.
+- **Key Focus:** API design, automated testing, and CI/CD workflows.
 
-### [🧠 Skill Gap AI Coach](https://github.com/thomas-sabu-cs/skillgap-ai-coach) — NLP (Python)
-Analyzes resumes against job descriptions to produce a **0–100 fit score**. Identifies missing skills and suggests actionable next steps using NLP.
-
-### [🎨 Image Editor Pro](https://github.com/thomas-sabu-cs/image-editor-pro) — Desktop App (Python/PyQt6)
-A full-featured desktop image editor with **layers, filters, and undo/redo** functionality. Designed with an MVC architecture and supports a custom `.iep` project format for persistent editing.
+#### 📊 [Risk Dashboard](https://github.com/thomas-sabu-cs/risk-decision-dashboard) | React 18, TypeScript, Redux Toolkit
+*Enterprise-grade UI for visualizing complex financial datasets.*
+- Managed complex state transitions using **Redux Toolkit** and the Context API.
+- Styled with **Tailwind CSS** for a responsive, accessible, and professional user experience.
+- **Key Focus:** State management, type safety, and UI performance.
 
 ---
 
-## 🛠️ Core Skills
+### 03. Technical Stack
+- **Languages:** Python, Go, Java, C++, SQL, TypeScript
+- **Machine Learning:** PyTorch, TensorFlow, scikit-learn, XGBoost, pandas, NumPy
+- **Infrastructure:** Docker, Redis, InfluxDB, GitHub Actions, Git
+- **Web/Backend:** React, Spring Boot, Flask, FastAPI
 
-*   **Languages:** Python, Go, Java, C++, SQL, JavaScript/TypeScript
-*   **Machine Learning:** PyTorch, TensorFlow, scikit-learn, XGBoost, pandas, NumPy
-*   **Web & Backend:** React, Spring Boot, Flask, HTML/CSS
-*   **Infrastructure:** Docker, Redis, InfluxDB, GitHub Actions (CI/CD)
-
----
-
-## 📈 Engineering Roadmap
-*   **Sentinel Stream:** Implementing load testing and horizontal scaling benchmarks.
-*   **Pneumonia Detector:** Expanding dataset to include multi-class lung pathology.
-*   **General:** Standardizing 90%+ test coverage across all flagship repositories.
-
-**I am currently seeking Full-Time Software Engineering or Machine Learning roles.** If you're looking for a developer who loves building robust, data-driven systems, let's connect!
+### 04. Current Objectives
+- **Performance Benchmarking:** Documenting p95 latency and throughput for Sentinel Stream.
+- **System Design:** Deep-diving into distributed consensus and database internals.
+- **Open Source:** Looking for impactful ML or Go-based projects to contribute to.
