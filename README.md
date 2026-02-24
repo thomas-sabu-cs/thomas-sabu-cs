@@ -4,7 +4,6 @@ Software Engineer focused on **Machine Learning**, **Distributed Systems**, and 
 
 - 🌐 Portfolio: https://thomas-sabu-cs.github.io/Website/
 - 💼 LinkedIn: https://www.linkedin.com/in/thomas-sabu
-- 📫 Email: tsabu154@gmail.com
 
 ## Highlight Reel (Best Work)
 
