@@ -1,47 +1,63 @@
 # Thomas Sabu
-**Software Engineer | ML & Distributed Systems**
-[Portfolio](https://thomas-sabu-cs.github.io/Website/) • [LinkedIn](https://linkedin.com/in/thomas-sabu)
+### Software Engineer | Systems & ML Engineering
+[LinkedIn](https://www.linkedin.com/in/thomas-sabu/) • [Portfolio](https://thomas-sabu.com)
 
 ---
 
 ### 01. Engineering Focus
-I build data-intensive applications with a focus on **system reliability** and **model interpretability**. I’m a CS New Grad (University of St. Thomas) currently looking for Full-Stack or ML Engineering roles where I can own the bridge between research and production.
+I build high-performance, data-intensive applications with a focus on **system reliability** and **low-level optimization**. As a CS graduate from the **University of St. Thomas**, I specialize in bridging the gap between complex backend systems and production-ready ML models.
+
+---
 
 ### 02. Selected Technical Projects
 
 #### 🛰️ [Sentinel Stream](https://github.com/thomas-sabu-cs/sentinel-stream) | Go, Redis, InfluxDB, Docker
-*Distributed monitoring engine designed for high-throughput telemetry.*
-- Implemented a real-time pipeline using **Redis Pub/Sub** for decoupled service communication.
-- Optimized data persistence into **InfluxDB** for time-series analysis.
-- **Key Focus:** Service boundaries, container orchestration, and horizontal scaling.
+*High-throughput distributed monitoring engine for real-time telemetry.*
+- **Performance:** Achieved **<1ms P99 latency** for ingestion pipelines using a decoupled Redis Pub/Sub architecture.
+- **Scalability:** Designed for horizontal scaling with containerized microservices and automated health checks.
+- **Key Focus:** Concurrency patterns, service boundaries, and time-series data persistence.
 
-#### 🩻 [Pneumonia Detector](https://github.com/thomas-sabu-cs/Pneumonia-Detector) | PyTorch, DenseNet-121, Gradio
-*Computer vision classifier for chest X-rays with explainable AI.*
-- Achieved high classification accuracy using **DenseNet-121** with class-imbalance handling.
-- Integrated **Grad-CAM** to visualize model attention, providing clinical interpretability.
-- **Key Focus:** Model evaluation metrics, explainability, and real-time inference.
+#### 🧠 [Nexus Alloc](https://github.com/thomas-sabu-cs/nexus-alloc) | C++, Memory Management, Systems
+*Custom high-performance memory allocator designed for reduced fragmentation.*
+- **Architecture:** Implemented a [Buddy/Slab] allocation strategy with thread-local caching to minimize lock contention.
+- **Optimization:** Optimized for [small/large] block allocations, outperforming standard `malloc` in [specific use-case] benchmarks.
+- **Key Focus:** Pointer arithmetic, memory alignment, and thread-safety.
+
+#### 🤖 [SkillGap AI Coach](https://github.com/thomas-sabu-cs/skillgap-ai-coach) | FastAPI, Next.js, Postgres, OpenAI
+*Full-stack AI agent for automated resume-to-job alignment and career coaching.*
+- **Hybrid Logic:** Features a deterministic keyword-matching baseline and an optional LLM-powered "Expert Mode."
+- **Persistence:** Built a robust history tracking system using Postgres and Docker Compose for 1-command deployment.
+- **Key Focus:** RAG (Retrieval-Augmented Generation), API design, and full-stack integration.
+
+#### 🎨 [Image Editor Pro](https://github.com/thomas-sabu-cs/image-editor-pro) | Python, PyQt6, Pillow, NumPy
+*Desktop image processor featuring a professional layer-based editing system.*
+- **Design Patterns:** Implemented the **Command Pattern** for a robust 50-step undo/redo history and **MVC** for UI state.
+- **Features:** Built custom filters (Gaussian Blur, Edge Detection) using NumPy for efficient pixel-array manipulation.
+- **Key Focus:** Desktop architecture, state management, and image processing.
 
 #### ✅ [Transaction Monitor](https://github.com/thomas-sabu-cs/transaction-monitor-service) | Java, Spring Boot 3, JUnit 5
-*Backend service for automated financial risk scoring.*
-- Built a robust REST API with **Spring Data JPA** and H2 for persistent state management.
-- Automated quality gates using **GitHub Actions CI** and achieved high test coverage with JUnit 5.
-- **Key Focus:** API design, automated testing, and CI/CD workflows.
+*Backend financial service for automated risk scoring and fraud detection.*
+- **Quality:** Achieved high test coverage with JUnit 5 and automated quality gates via GitHub Actions CI.
+- **Reliability:** Built a RESTful API with Spring Data JPA and H2 for persistent, transactional state management.
+- **Key Focus:** Enterprise patterns, automated testing, and CI/CD.
 
 #### 📊 [Risk Dashboard](https://github.com/thomas-sabu-cs/risk-decision-dashboard) | React 18, TypeScript, Redux Toolkit
-*Enterprise-grade UI for visualizing complex financial datasets.*
-- Managed complex state transitions using **Redux Toolkit** and the Context API.
-- Styled with **Tailwind CSS** for a responsive, accessible, and professional user experience.
-- **Key Focus:** State management, type safety, and UI performance.
+*Enterprise UI for visualizing complex financial datasets and risk decisions.*
+- **State:** Managed complex, multi-step state transitions using Redux Toolkit and the Context API.
+- **Type Safety:** Leveraged TypeScript for strict interface definitions across the data visualization layer.
+- **Key Focus:** UI performance, responsive design (Tailwind CSS), and state normalization.
 
 ---
 
 ### 03. Technical Stack
-- **Languages:** Python, Go, Java, C++, SQL, TypeScript
+- **Languages:** Go, C++, Python, Java, TypeScript, SQL
+- **Systems & Infra:** Docker, Redis, InfluxDB, PostgreSQL, GitHub Actions, Linux
 - **Machine Learning:** PyTorch, TensorFlow, scikit-learn, XGBoost, pandas, NumPy
-- **Infrastructure:** Docker, Redis, InfluxDB, GitHub Actions, Git
-- **Web/Backend:** React, Spring Boot, Flask, FastAPI
+- **Web/Backend:** FastAPI, Spring Boot, React, Redux, Flask
+
+---
 
 ### 04. Current Objectives
-- **Performance Benchmarking:** Documenting p95 latency and throughput for Sentinel Stream.
-- **System Design:** Deep-diving into distributed consensus and database internals.
-- **Open Source:** Looking for impactful ML or Go-based projects to contribute to.
+- **Low-Level Systems:** Documenting cache-miss ratios and fragmentation metrics for **Nexus Alloc**.
+- **Distributed Consensus:** Deep-diving into Raft and Paxos implementations for future systems projects.
+- **Open Source:** Actively looking for impactful Go or C++ systems projects to contribute to.
