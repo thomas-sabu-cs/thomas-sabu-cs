@@ -1,6 +1,6 @@
 # Thomas Sabu
 ### Software Engineer | Systems & ML Engineering
-[LinkedIn](https://www.linkedin.com/in/thomas-sabu/) • [Portfolio](https://thomas-sabu.com)
+[LinkedIn](https://www.linkedin.com/in/thomas-sabu/) • [Portfolio]((https://thomas-sabu-cs.github.io/Website))
 
 ---
 
